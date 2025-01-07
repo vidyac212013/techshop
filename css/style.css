@@ -1,0 +1,9 @@
+/* .icon-link>.bi {
+    color: green!important;
+} */
+
+.cust-vertical-align{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
