@@ -2,8 +2,45 @@
     color: green!important;
 } */
 
+html,body {
+    height: 100%;
+}
+* {
+    margin: 0;
+}
 .cust-vertical-align{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+}
+.wrapper{
+    background-color: #000000;
+}
+.header{
+   
+    display: flex;   
+    color: white;
+    height: 100px;
+}
+.header-logo{
+    flex:10;
+    align-content: center;
+}
+.navbar{
+     flex:2;
+    align-content: center;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-around;/*insted of flex value 1 to li , parent of li(ul) set the justify-content value space around */
+}
+.navbar ul li{
+    /* flex:1; */
+    display: flex;
+    list-style: none;
+    font-size: 25px;
+    color: #ffff;   
+}
+.icon-color{
+    color: white;
 }
