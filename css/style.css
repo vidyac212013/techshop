@@ -7,6 +7,7 @@ html,body {
 }
 * {
     margin: 0;
+    padding: 0;
 }
 .cust-vertical-align{
     display: flex;
@@ -43,4 +44,137 @@ html,body {
 }
 .icon-color{
     color: white;
+}
+.container-image{
+    display: flex;
+    padding-top: 30px;
+    
+}
+.img-view{
+    flex:1.5;
+    display: flex;
+    justify-content: center;
+}
+.img-view ul{
+   display: flex;    
+   justify-content: center;
+   align-content: space-around;
+   flex-wrap: wrap;
+
+    
+}
+.img-view ul li{    
+    list-style: none;
+    border: 1px solid gray;
+    display: flex;
+    
+    
+}
+.img-large{
+    flex: 6;
+    display: flex;
+    justify-content: center;
+}
+.img-speciification{
+    flex:4;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:gainsboro;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-content:space-between;  
+    line-height: 50px;     
+}
+.img-speciification-detail{
+    border-bottom: 2px solid gray;
+    font-size: 25px;
+    /* line-height: 50px; */
+    width:100%;
+    padding: 24px;
+    padding-left: 0;
+}
+.review-rating{
+    display: flex;
+}
+.container-star{
+    width: 100px;
+    color: orangered;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10px;
+    align-items: center;
+}
+.product-price{
+    border-bottom: 2px solid gray; 
+    width: 100%;
+    display: flex;    
+    align-items: center;  
+    line-height: 30px;
+    justify-content: space-between;  
+    padding: 24px;
+    padding-left: 0;
+}
+
+.container-currency{
+    /* color: white;
+    margin-top: 10px;
+    padding-top: 20px;
+    height: 150px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    align-content:space-between; */
+    
+}
+.price-detail i{
+    vertical-align: sub;
+}
+.btn-stock button{
+    background-color: green;
+    color: white;
+    width: 150px;
+    padding: 15px;
+    font-size: 20px;
+    margin-right: 10px; 
+}
+.credit-paylater{
+    
+    display: flex;    
+    justify-content: space-between;
+    font-size: 20px;
+ }
+.offers-discount{
+    width: 100%;
+    border-bottom: 2px solid gray;
+    font-size: 22px;
+    line-height: 68px;
+    padding: 24px;
+    padding-left: 0;
+}
+.credit-card{
+    border:1px solid gray;
+    display: flex;
+    margin-right: 5px;
+    align-items: center;
+}
+.pay-later{
+    border:1px solid gray;
+    margin-right: 10px;
+    align-items: center;
+}
+.btn-addcart{
+    width: 100%;
+    display:flex;
+    align-items: center; 
+    padding: 24px;
+    padding-left: 0;
+       
+}
+.btn-addcart button{
+    background-color: red;
+    color: white;
+    padding: 20px;
+    width: 200px;
+    border-radius: 5px;
 }
