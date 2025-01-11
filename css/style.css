@@ -109,8 +109,7 @@ html,body {
     border-bottom: 2px solid gray; 
     width: 100%;
     display: flex;    
-    align-items: center;  
-    line-height: 30px;
+    align-items: center;      
     justify-content: space-between;  
     padding: 24px;
     padding-left: 0;
@@ -177,4 +176,48 @@ html,body {
     padding: 20px;
     width: 200px;
     border-radius: 5px;
+}
+.btn-specification{
+    display: flex;
+    justify-content: center;
+}
+.btn-background{
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 25px;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+}
+.btn-transparent{
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 25px;
+    background-color: transparent;
+    border: transparent;
+    color: white;
+}
+.conainer-specification{
+    display:flex;
+    margin-top: 50px;
+}
+.product-specification-name{
+    color:white;   
+    font-size: 25px;
+}
+.product-specification-name ul li{
+    list-style: none;
+    padding: 10px;
+}
+.prodct-specification-detail{
+    color:white;   
+    font-size: 25px;
+    width: 450px;
+}
+.prodct-specification-detail ul li{
+    list-style: none;
+    padding: 10px;
+    text-align:end;
 }
