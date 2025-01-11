@@ -202,6 +202,7 @@ html,body {
 .conainer-specification{
     display:flex;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 .product-specification-name{
     color:white;   
@@ -221,3 +222,73 @@ html,body {
     padding: 10px;
     text-align:end;
 }
+.related-products{
+    display: flex;
+    margin: 10px;
+}
+.related-product-head{
+    margin: 50px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container-specification{
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.related-products-item{
+    border: 1px solid gray;
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+}
+.related-products-detail{
+    border-bottom: 1px solid gray;
+    padding-bottom:10px ;
+}
+.related-products-detail h1{
+    color:darkgrey;
+    padding-top: 10px;
+}
+.related-products-detail p{
+    color:darkgrey;
+    padding-top: 10px;
+    font-size: 20px;
+    height: 50px;
+}
+.related-products-detail i{
+    color: red;
+    font-size: 15px;
+}
+.related-products-img{
+    margin-bottom: 40px;
+    text-align: center;
+}
+.related-products-rupee{
+    color: white;
+    vertical-align: sub;
+    padding-top: 20px;
+    font-size: 30px;
+ }
+ .related-products-rupee button{
+    color: white;
+    background-color: red;
+    width:100%;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 25px;
+    border-radius:10px;
+ }
+ .related-products-next-btn{
+    width: 200px;
+    display: block;
+    margin: auto;
+ }
+ .related-products-next-btn button{
+    margin-right: 20px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+     background-color:gray;
+ }
