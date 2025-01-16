@@ -13,13 +13,13 @@
 </head>
 
 <body>
-    <div class="container-fluid bg-dark">
+    <div class="container-fluid ">
         <!--Header-section-starts-->
         <header>
             <nav class="mb-4 py-3">
                 <div class="row text-light ">
                     <div class="col-9">
-                        <h1 class="fs-3 px-2">TECHSHOP</h1>
+                        <h1 class="fs-3 px-2"><a href="#" class="nav-link">Tech-shop</a></h1>
                     </div>
                     <!--Search-icon-start-->
                     <div class="col-1">
@@ -28,15 +28,23 @@
                         </a>
                     </div>
                     <div class="col-1">
-                        <a href="#" class="icon-link">
+                        <a href="cart-page.html" class="icon-link">
                             <i class="bi-cart4 fs-4 text-light ps-3"></i>
                         </a>
                     </div>
-                    <div class="col-1">
-                        <a href="sign-up-page.html" class="icon-link icon-link-hover"  data-bs-trigger="hover" data-bs-placement="bottom">
-                            <i class="bi-person fs-4 text-light ps-3"></i>
-                        </a>
+                    <div class="col-1 ">
+                                <div class="user-link">
+                                    <i class="bi-person fs-4 text-light ps-3 user-icon"></i>
+                                    <span class="user-tooltip">
+                                        <h3>Hello!</h3>
+                                        <p>Access account and manage manage orders</p>
+                                        <a href="user-signup-page.html">Login/Signup</a>    
+                                    </span>
+                                </div>
+                        <!-- <a href="#" class="icon-link"  data-bs-trigger="hover" data-bs-placement="bottom"> -->
+                         
                     </div>
+                    
                     </div>
                 </nav>
         </header>
@@ -61,14 +69,13 @@
                                         <h4>boat Airpodes 131</h4>
                                         <p class="fs-1 w-75">Featherweight For Comfort All-Day</p>
                                         <div>
-                                            <h4>
                                                 <span class="fs-2 text-light">
                                                     <i class="bi-currency-rupee"></i>1,099
                                                 </span>
                                                 <span class="fs-3 text-light-emphasis">
                                                     <s><i class="bi-currency-rupee"></i>2,990</s>
                                                 </span>
-                                            </h4>
+                                        
                                         </div>
                                         <button class="bg-danger text-light px-4 py-2 my-5 fs-5">Shop Now</button>
                                     </div>
@@ -88,14 +95,12 @@
                                         <h4>JBL Live 660NC</h4>
                                         <p class="fs-1 w-75">Keep The Noise Out, Or In. You Choose</p>
                                         <div>
-                                            <h4>
                                                 <span class="fs-2 text-light">
                                                     <i class="bi-currency-rupee"></i>9,999
                                                 </span>
                                                 <span class="fs-3 text-light-emphasis">
                                                     <s><i class="bi-currency-rupee"></i>14,990</s>
                                                 </span>
-                                            </h4>
                                         </div>
                                         <button class="bg-danger text-light px-4 py-2 my-5 fs-5">Shop Now</button>
                                     </div>
@@ -149,16 +154,100 @@
                 </div>
         </main>
         <!--image-slider-end-->
+        <!--Featured Products start-->
+        <main>
+            
+            <div class="feature-head">
+                <h2>Featured Products</h2>
+            </div>
+            <div class="feature-products">
+                <!--first image start-->
+                <div class="fp-image1">
+                    <p>JBL Endurance Run Sports</p>
+                    <img src="images/products/jbl-endu-1.png" class="feature-img">
+                    <div class="fp-price-list">
+                        <span class="text-white-50">
+                            <i class="bi bi-currency-rupee"></i>999
+                        </span>
+                        <span class="text-light-emphasis">
+                            <s><i class="bi bi-currency-rupee" ></i>1599</s>
+                        </span>
+                    </div>
+                </div>
+                <!--first image end-->
+                <!--second image start-->
+                <div class="fp-image2">
+                    <p>boAt Airpodes 203</p>
+                    <img src="images/products/boat203-1.png" class="feature-img">
+                    <div class="fp-price-list">
+                        <span class="text-white-50">
+                            <i class="bi bi-currency-rupee"></i>1074
+                        </span>
+                        <span class="text-light-emphasis">
+                            <s><i class="bi bi-currency-rupee"></i>3,999</s>
+                        </span>
+                    </div>                    
+                </div>
+                <!--second image end-->
+
+                <!--third image start-->
+                <div class="fp-image3">
+                    <p>boAt Rockerz 518</p>
+                    <img src="images/products/boat518-1.png" class="feature-img">
+                    <div class="fp-price-list">
+                        <span class="text-white-50">
+                            <i class="bi bi-currency-rupee"></i>1,299
+                        </span>
+                        <span class="text-light-emphasis">
+                            <s><i class="bi bi-currency-rupee"></i>3,999</s>
+                        </span>
+                    </div>                    
+                </div>
+                <!--Third image end-->
+
+                <!--fourth image start-->
+                <div class="fp-image4">
+                    <p>JBL Tune 760NC</p>
+                    <img src="images/products/jbl760nc-1.png" class="feature-img">
+                    <div class="fp-price-list">
+                        <span class="text-white-50">
+                            <i class="bi bi-currency-rupee"></i>5,999
+                        </span>
+                        <span class="text-light-emphasis">
+                            <s><i class="bi bi-currency-rupee"></i>7,999</s>
+                        </span>
+                    </div>                    
+                </div>
+                <!--fourth image end-->
+
+                <!--fifth image start-->                
+                <div class="fp-image5">
+                    <p>boAt Rockers 255</p>
+                    <img src="images/products/boat255r-1.png" class="feature-img">
+                    <div class="fp-price-list">
+                        <span class="text-white-50">
+                            <i class="bi bi-currency-rupee"></i>899
+                        </span>
+                        <span class="text-light-emphasis">
+                            <s><i class="bi bi-currency-rupee"></i>2,990</s>
+                        </span>
+                    </div>                    
+                </div>
+                <!--fifth image end-->
+
+            </div>
+        </main>
+        <!--Featured Products End-->
 
         <!--Top Products start-->
         <main>
             
             <div class="container-fluid ">
-                <h1 class="text-light text-center py-3 mb-4">Top Features</h1>
+                <h1 class="text-light text-center py-3 mb-4">Top Products</h1>
                 <div class="container text-center">
                     <div class="row">
                       <div class="col">
-                        <button class="bg-danger text-light fs-4 px-4 py-2 rounded-3">All</button>
+                        <button class="bg-danger text-light fs-4 px-4 py-2">All</button>
                       </div>
                       <div class="col">
                         <button class="btn text-light fs-4">Headphones</button>
@@ -167,7 +256,7 @@
                         <button class="btn text-light fs-4">Earbuds</button>
                       </div>
                       <div class="col">
-                        <button class="btn text-light fs-4">Earphones</button>
+                        <button class="btn text-light fs-4 ">Earphones</button>
                       </div>
                       <div class="col">
                         <button class="btn text-light fs-4">Neckbands</button>
