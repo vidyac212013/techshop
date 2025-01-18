@@ -39,7 +39,7 @@ html,body {
     height: 100px;
 }
 .header-logo{
-    flex:10;
+    flex:6;
     align-content: center;
 }
 .header-logo h1{
@@ -749,4 +749,26 @@ html,body {
    justify-content: center;
    flex: 1;
    align-items: flex-end;
+ }
+ .tooltip-icon-cart{
+   position: relative;
+   
+
+ }
+ .tooltip-cart{
+   visibility: hidden;
+   position: absolute;
+   width: 70px;   
+   border: 2px solid gray;
+   text-align: center;
+   top: 40px;
+   line-height: 25px;
+   vertical-align: middle;
+   color: white;
+   font-size: 1rem;
+   left: 0px;
+ }
+ .tooltip-icon-cart:hover .tooltip-cart{
+   visibility: visible;
+
  }
