@@ -491,13 +491,16 @@ html,body {
     line-height:40px;
 
  }
-.user-account h3{
+.user-account p{
     display:inline;
     color: rgb(170, 170, 170);
+    font-size: 20px;
  }
   .user-account a{
     color: white;
     text-decoration: none;
+    font-size: 20px;
+
  }
  .form-group{
     margin-bottom: 15px;
