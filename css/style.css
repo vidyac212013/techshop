@@ -561,7 +561,7 @@ html,body {
     background-color:deepskyblue;
     padding: 20px 0;
     font-size: 20px;
-
+    margin-right: 10px;
  }
  .social-media button:hover{
     cursor: pointer;
@@ -774,4 +774,36 @@ html,body {
  .tooltip-icon-cart:hover .tooltip-cart{
    visibility: visible;
 
+ }
+ .cart-item-count{
+   border: 1px solid grey;
+   margin-top: 25px;
+   width: 234px;
+   /* background-color: red; */
+ }
+ .cart-item-count input{
+   color: red;
+   width: 80px;
+   /* height: 20px; */
+   text-align: center;
+   border: 1px solid rgb(21, 21, 21); 
+   font-size: 25px;
+   margin: 0;
+   outline: none;
+   border-left: 1px solid rgb(95, 93, 93);
+
+ }
+ .cart-item-count-add, .cart-item-count-minus{
+   width: 70px;
+   margin: 0;
+   /* color:rgb(16, 15, 15); */
+   /* background-color: #2a2727; */
+   /* height: 10px;*/
+ } 
+ .cart-item-count-minus img, .cart-item-count-add i {
+   /* color: rgb(55, 54, 54); */
+   outline: none;
+   font-size: 1em;
+   /* background-color: #171717; */
+   
  }
